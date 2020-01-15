@@ -14,8 +14,8 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-        <div class="container-fluid" style="max-width: 1030px; width: 100%;">
-                <div class="container" >
+        <div class="container-fluid" style="max-width: 1070px; width: 100%;">
+                <div class="container" style="max-width: 1030px; width: 100%;">
                     <div class="row" style="background-color: rgb(117,76,36); color: white;">
                         <div class="col-md-6">
                             <p style="font-family: Georgia; font-size: 36px; font-weight: regular; ">HolidayHotel</p>
@@ -56,12 +56,12 @@
                                 </div>
                             </div>
                             <nav class="navbar navbar-expand-lg">
-                                <button style="width:100%" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentLG" aria-controls="navbarSupportedContentLG" aria-expanded="false" aria-label="Toggle navigation">
+                                <button style="width: 450px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentLG" aria-controls="navbarSupportedContentLG" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                             
                                 <div class="collapse navbar-collapse" id="navbarSupportedContentLG">
-                                    <ul class="navbar-nav mr-auto" style="margin-left:40px">
+                                    <ul class="navbar-nav mr-auto" style="margin-left:auto;margin-right:auto;width: auto;margin-top: 2px;">
                                         <li class="nav-item">
                                           <a class="nav-link" href="#" style="color: white; background-color: rgb(255,153,0);">Home </a>
                                         </li>
@@ -84,12 +84,65 @@
                     </div>
                     <div class="row" style="background-color: rgb(91, 58, 39);">
                         <div class="col-md-8 img-640">
-                            <!-- <img src="img/640-250.png" style="margin-top: 42px;"> -->
-                            <div class="top-content">
-                                <div class="img-60">
-                                    <p style="padding: 145px; text-align: center;">640 x 350px</p>
+                            <!--Carousel Wrapper-->
+                            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                                <!--Indicators-->
+                                <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                                </ol>
+                                <!--/.Indicators-->
+                                <!--Slides-->
+                                <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="view">
+                                    <img class="d-block w-100" src="img/battle1.jpg"
+                                        alt="First slide">
+                                    <div class="mask rgba-black-light"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                    
+                                    </div>
                                 </div>
+                                <div class="carousel-item">
+                                    <!--Mask color-->
+                                    <div class="view">
+                                    <img class="d-block w-100" src="img/battle2.jpg"
+                                        alt="Second slide">
+                                    <div class="mask rgba-black-strong"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                    
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <!--Mask color-->
+                                    <div class="view">
+                                    <img class="d-block w-100" src="img/battle3.jpg"
+                                        alt="Third slide">
+                                    <div class="mask rgba-black-slight"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                                <!--/.Slides-->
+                                <!--Controls-->
+                                <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+                                <!--/.Controls-->
                             </div>
+                            <!--/.Carousel Wrapper-->
+                            <!-- <img src="img/640-250.png" style="margin-top: 42px;"> -->
+                            
                             <!-- <div class="image-640">
                                 <div>
                                     <img src="img/640-250.png" width="auto">
@@ -97,13 +150,13 @@
                             </div> -->
                             <div class="bottom-content">
                                 <div class="bottom-content-1">
-                                    <img src="img/200-110.png">
+                                    <img src="img/hotel1.jpg" class="cangiua">
                                 </div>
                                 <div class="bottom-content-1">
-                                    <img src="img/200-110.png">
+                                    <img src="img/hotel2.jpg" class="cangiua">
                                 </div>
-                                <div>
-                                    <img src="img/200-110.png">
+                                <div class="bottom-content-1">
+                                    <img src="img/hotel3.jpg" class="cangiua">
                                 </div>
                             </div>
                         </div>
@@ -134,7 +187,7 @@
                             </br>
                             <p id="check">Check Availability</p>
                             <p id="room">Room and rates</p>
-                            <img src="img/3.PNG" style="margin-top:-5px;">
+                            <img src="img/3.PNG" style="margin-top:-5px;" class="img-fluid cangiua">
                         </div>
                     </div>
                     <div class="row" style="background-color: rgb(117, 76, 36); height: 100%; ">
@@ -146,10 +199,10 @@
                                         <hr>
                                         <div class="nulam">
                                             <div class="nulam-first">
-                                                <img src="img/5.png">
+                                                <img src="img/5.png" class="img-fluid">
                                             </div>
                                             <div class="nulam-second">
-                                                <img src="img/5.png">
+                                                <img src="img/5.png" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -157,8 +210,8 @@
                                         <p style="font-family: Georgia; font-size: 30px;">Ametorci Phasellus</p>
                                         <hr>
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <img src="img/290-100.png">
+                                            <div class="col-md-6 image-290">
+                                                <img src="img/temp1.jpg" class="img-fluid cangiua">
                                                 <p style="font-family: Georgia; font-size:13pt; font-weight: bold;margin-top: 10px;">Indonectetus facilis leo nibh</p>
                                                 <hr>
                                                 <div>
@@ -169,7 +222,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="img/290-100.png">
+                                                <img src="img/temp2.jpg" class="img-fluid cangiua">
                                                 <p style="font-family: Georgia; font-size:13pt; font-weight: bold; margin-top: 10px;">Indonectetus facilis leo nibh</p>
                                                 <hr>
                                                 <div>
@@ -201,7 +254,7 @@
                         <div class="col-md-4">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="img/64-64.png" style="margin-top: 50px;">
+                                    <img src="img/huong.jpg" width="64px" height="64px" class="img-fluid" style="margin-top: 50px;">
                                 </div>
                                 <div class="col-md-9">
                                     <p id="nulamlacus">Nullamlacus dui ipsum 
@@ -222,7 +275,7 @@
                                 <p style="color: rgb(153,254,0); text-align:right">Continue Reading >></p>
                             </div >
                             <div>
-                                <p style="font-family:Georgia;font-size: 13px font-weight:bold;">
+                                <p style="font-family:Georgia;font-size: 13px; font-weight:bold;">
                                     Indonectetus facilis leo nibh
                                 </p>
                                 <hr>
@@ -251,36 +304,36 @@
                             <hr>
                             <div class="flex-container">
                                 <div>
-                                    <img src="img/2.png">
+                                    <img src="img/image1.jpg">
                                 </div>
                                 <div>
-                                    <img src="img/2.png">
+                                    <img src="img/image2.jpg">
                                 </div>
                                 <div>
-                                    <img src="img/2.png">
+                                    <img src="img/image3.jpg">
                                 </div>
                                 <div>
-                                    <img src="img/2.png">
+                                    <img src="img/image4.jpg">
                                 </div>
                                 <div>
-                                    <img src="img/2.png">
+                                    <img src="img/image5.jpg">
                                 </div>
                                 <div>
-                                    <img src="img/2.png">
+                                    <img src="img/image6.jpg">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style="font-family: Verdana; font-size: 12px;  height: 100%; background-color: rgb(32, 19, 11);">
+                    <div class="row row-bottom">
                         <div class="col-md-4 col-sm-12">
                             <p id="stay">Stay in the know!</p>
                             <hr style="border-color: rgb(70, 41, 28);">
                             <p>Please enter your email to join our mailing list</p>
                             <input type="text" id="tstay">
-                            <span style="background-color: rgb(91,58,39); width: 80px; height: 80px; padding: 5px 8px;">GO</span>
+                            <span id="gogo">GO</span>
                             <p style="padding-top:10px;">To unsubsribe please click here »</p>
                         </div>
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-4 col-sm-12" style="color: rgb(255, 255, 255);">
                             <p id="stay">Shortcuts!</p>
                             <hr style="border-color: rgb(70, 41, 28);">
                             <p>Business Terms & Conditions » </p>
