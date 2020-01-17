@@ -16,6 +16,9 @@ body{
     text-align: center;
     padding: 8px 15px ;
 }
+.nav-link:hover{
+    background-color: rgb(255,153,0);
+}
 #navbarNav{
     /* float: right; */
 }
@@ -139,6 +142,33 @@ body{
 	align-items: center;
 	justify-content: center;
 }
+.thumbnail {
+    width: 210px;
+    height: 120px; 
+    overflow: hidden; 
+    border: 1px solid #e5e5e5;
+}
+.thumbnail img {
+    width: 100%; 
+    height: 100%;  
+    transition-duration: 0.5s;
+        /* Safari */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+.thumbnail img:hover {
+    transform: scale(1.2);
+        -webkit-transform: scale(1.6); 
+        -moz-transform: scale(1.6); 
+        -o-transform: scale(1.6);
+        -ms-transform: scale(1.6);
+    cursor: pointer; 
+}
 #ul-navbar{
     margin-left: 40px;
 }
@@ -211,8 +241,10 @@ body{
     margin-top: 20px;
     font-family: Verdana;
     font-size: 13px;
+    font-weight: bold;
     text-align: center;
     padding-top: 5px;
+    color: white;
 }
 .cangiua{
     margin-left: auto;
@@ -278,6 +310,42 @@ body{
     font-family: Georgia;
     font-size: 22px;
     padding-top: 27px;
+}
+#busi{
+    color: white;
+    /* margin-bottom: 4px; */
+    text-decoration: none;
+}
+#malesu{
+    color: black;
+    font-family: Verdana;
+    font-size: 12px;
+    margin-left: 22px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#read-more{
+    color: rgb(164,100,97);
+    font-family: Verdana;
+    font-size: 13px;
+    /* font-weight: bold; */
+    float: right;
+}
+.nulam-1{
+    background-color: rgb(233,233,192);
+    width: 305px;
+    height: 365px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nulam-2{
+    background-color: rgb(233,233,192);
+    width: 305px;
+    height: 365px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #tstay{
     width: 260px;
